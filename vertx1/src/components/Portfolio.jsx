@@ -1,5 +1,5 @@
 import React from 'react';
-import dummyProfile from "../assets/dummyProfile.png";
+
 import logo from "../assets/logo.png";
 import logo2 from "../assets/logo2.png";
 import { CgMail } from "react-icons/cg";
@@ -8,7 +8,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import blueTick from "../assets/blueTick.png";
 import LeftComponent from "../components/LeftComponent"
 import RightComponent from "../components/RightComponent"
-const MainContent = () => {
+const Portfolio = () => {
   return (
     <div className='p-[5%] bg-[#080808] flex flex-col gap-10'>
       <div className="border rounded-xl px-2 border-[#5B5E66] ">
@@ -46,4 +46,5 @@ const MainContent = () => {
   )
 }
 
-export default MainContent
+export default Portfolio
+

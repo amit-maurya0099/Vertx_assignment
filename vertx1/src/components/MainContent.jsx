@@ -10,7 +10,7 @@ const MainContent = () => {
           <h2 className='text-2xl font-bold max-md:hidden '>Overview</h2>
           <div className='flex flex-col mt-4'>
             <div className='max-md:flex-col flex gap-4 '>
-                <img src={graph} alt="graph" className='max-md:w-full h-fit md:w-[70%] h-[300px] md:h-[250px] rounded-xl border border-[#5B5E66]'></img>
+                <img src={graph} alt="graph" className='max-md:w-full h-fit md:w-[70%]  md:h-[250px] rounded-xl border border-[#5B5E66]'></img>
                 <img src={insights} alt="insights" className='max-md:w-full md:w-[30%] h-fit  md:h-[250px] border rounded-xl border-[#5B5E66] '></img>
 
             </div>

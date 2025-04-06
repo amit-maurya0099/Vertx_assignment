@@ -1,23 +1,15 @@
 import React from 'react'
-import Home from './components/Home'
-import Sidebar from './components/Sidebar'
-import Header from './components/Header'
-import Navbar from './components/Navbar'
+import { Route, Routes } from 'react-router-dom'
+import Layout from './components/Layout'
+
 
 const App = () => {
   return (
-    <div className="h-screen w-screen text-white ">
-      <div className='flex max-md:flex-col '>
-        <div className='block md:hidden'>
-        <Header/>
-        </div>
-        <Sidebar/>
-         <Home/>
-         <div className='block md:hidden'>
-         <Navbar/>
-        </div>
-        </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout/>}/>
+      <Route path="/portfolio" element={<Layout/>}/>
+  
+    </Routes>
   )
 }
 

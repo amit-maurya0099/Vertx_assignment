@@ -18,7 +18,7 @@ const LeftComponent = () => {
                             <h2 className='text-lg font-bold'>Vertx</h2>
                             <h2 className='bg-green-600 px-0.5 rounded-sm text-[12px]'>CEO</h2>
                          </span>
-                         <p className='flex max-sm:flex-col max-sm:text-sm'>Founded in 2025.in <h5 className='font-semibold ml-1'>Fintech </h5></p>
+                         <p className='flex max-sm:flex-col max-sm:text-sm'>Founded in 2025.in <span className='font-semibold ml-1'>Fintech </span></p>
                       </div>
                    </div>
                    <div className='text-sm'>View Profile</div>
